@@ -27,6 +27,7 @@ structopt = "0.3"
 tokio = { version = "1.11", features = ["full"] }
 tokio-serial = "5.4"
 tokio-util = { version = "0.6", features = ["full"] }
+tokio-tungstenite = "*"
 
 [build-dependencies]
 build-data = "0.1"
